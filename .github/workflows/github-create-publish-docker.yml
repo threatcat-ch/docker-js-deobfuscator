@@ -24,6 +24,7 @@ jobs:
       contents: read
       packages: write
       attestations: write
+      id-id-token: read
       # 
     steps:
       - name: Checkout repository
